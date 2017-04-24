@@ -76,8 +76,7 @@ def studremove():
 
 
 def deptsub():
-	loop=0
-	while(loop!=1):
+	while(True):
 		print " "
 		print "\t -------------Select the Option-------------"
 		print "\t 1.Departments "
@@ -95,8 +94,7 @@ def deptsub():
 			print subject
 			print " "
 		elif op== 3:
-			loop=0
-			while(loop!=1):
+			while(True):
 				print " "
 				print "\t --------Choose Department--------"
 				print "\t 1.Open-Source"
@@ -125,8 +123,7 @@ def deptsub():
 			print "\t successfully added",subname
 			print " "
 		elif op==4:
-			loop=0
-			while(loop!=1):
+			while(True):
 				print " "
 				print "\t --------Choose Department No--------"
 				print "\t 1.Open-Source"
@@ -145,12 +142,12 @@ def deptsub():
 				elif op1== 5:break	
 				else:print "\t Wrong Dept No"
 		elif op==5:
+			print " "
 			break		
 		else:
 			print "\t Invalid Data Input"
 	
-loop=0
-while(loop!=1):
+while(True):
 	print "--------------Select the Option--------------"
 	print "|  1.Add Student                            |"
 	print "|  2.Students Detail                        |"
