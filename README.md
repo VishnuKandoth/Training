@@ -10,5 +10,8 @@ Your First Python Program
 Native Datatypes   
 The Power Of Introspection   
 Objects and Object-Orientation   
-
-
+Exceptions and File Handling
+Regular Expressions
+XML Processing
+Scripts and Streams
+HTTP Web Services
